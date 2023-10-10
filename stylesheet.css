@@ -1,0 +1,53 @@
+body {
+
+  font-family: Helvetica;
+
+  background-color: black;
+  
+  color: yellow;
+  
+  text-align: center;
+}
+
+
+
+h1 {
+
+  font-family: Helvetica;
+
+  color: yellow;
+
+  text-align: center;
+
+}
+
+
+
+p {
+
+  font-family: Helvetica;
+
+  font-size: 20px;
+
+  text-align: center;
+
+}
+
+.yam{ 
+/*
+Adding style tag to everything is annoying...
+you can assign a CLASS or ID to an html object
+class is basically style specifics for a group of objects
+id is typically used for styling for single objects (really personal preference)
+this is the 'yam' class, as I assigned the yam class to the <a> tag of the image 
+you could create an ID for yam by copying this, changing .yam -> #yam, and then instead of class="yam" you would do id="yam"
+*/
+/*pointer-events:none;  this isn't needed anymore, since HREF was removed from the yams image */
+user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+  
+}
