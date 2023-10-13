@@ -1,5 +1,10 @@
 function Fart(){
- var audio = document.getElementById("audio");
+ var audio = document.getElementById("Fart");
+        audio.play();
+}
+
+function Scream(){
+ var audio = document.getElementById("Scream");
         audio.play();
 }
 
