@@ -74,13 +74,13 @@ a:link {
 }
 
 a:visited {
-  color: orange;
+  color: yellow;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: green;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -88,5 +88,39 @@ a:hover {
 a:active {
   color: yellow;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 200px;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+  background-color: yellow;
+}
+
+
+
