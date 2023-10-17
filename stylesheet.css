@@ -33,6 +33,21 @@ p {
 
 }
 
+
+p2 {
+
+  font-family: Helvetica;
+
+  font-size: 20px;
+
+  text-align: center;
+
+  border: 5px solid yellow;
+
+  padding: 10px;
+
+}
+
 .yam{ 
 /*
 Adding style tag to everything is annoying...
