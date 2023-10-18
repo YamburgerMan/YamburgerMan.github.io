@@ -1,0 +1,134 @@
+body {
+
+  font-family: Helvetica;
+
+  background-color: black;
+  
+  color: yellow;
+  
+  text-align: center;
+}
+
+
+
+h1 {
+
+  font-family: Helvetica;
+
+  color: yellow;
+
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+
+
+p {
+
+  font-family: Helvetica;
+
+  font-size: 20px;
+
+  text-align: center;
+
+  color: orange;
+
+}
+
+
+p2 {
+
+  font-family: Helvetica;
+
+  font-size: 20px;
+
+  text-align: center;
+
+  border: 5px solid yellow;
+
+  padding: 10px;
+
+}
+
+.yam{ 
+/*
+Adding style tag to everything is annoying...
+you can assign a CLASS or ID to an html object
+class is basically style specifics for a group of objects
+id is typically used for styling for single objects (really personal preference)
+this is the 'yam' class, as I assigned the yam class to the <a> tag of the image 
+you could create an ID for yam by copying this, changing .yam -> #yam, and then instead of class="yam" you would do id="yam"
+*/
+/*pointer-events:none;  this isn't needed anymore, since HREF was removed from the yams image */
+user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+  
+}
+
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.menu{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+  background-color: yellow;
+}
+
+
+
