@@ -95,8 +95,10 @@ a:active {
 
 
 
-ul {
-  list-style-type: none;
+
+
+.menu{
+	list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -104,6 +106,9 @@ ul {
   top: 0;
   width: 100%;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 li {
