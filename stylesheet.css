@@ -18,7 +18,7 @@ h1 {
   color: yellow;
 
   text-align: center;
-  padding: 25px;
+  padding-top: 25px;
 
 }
 
@@ -28,9 +28,11 @@ p {
 
   font-family: Helvetica;
 
-  font-size: 20px;
+  font-size: 25px;
 
   text-align: center;
+
+  color: orange
 
 }
 
@@ -95,10 +97,8 @@ a:active {
 
 
 
-
-
-.menu{
-	list-style-type: none;
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -106,9 +106,6 @@ a:active {
   top: 0;
   width: 100%;
   background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 li {
