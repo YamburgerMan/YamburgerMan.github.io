@@ -1,12 +1,17 @@
 body {
 
   font-family: Helvetica;
+  
+  color: yellow;
 
   background-color: black;
   
-  color: yellow;
-  
   text-align: center;
+
+    background-image: url('website bkg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
