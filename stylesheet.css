@@ -146,9 +146,10 @@ li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background-size: 100%;
+  background-size: cover;
   background-image: url('website bkg models.png');
-  background-attachment: fixed;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
 }
 
 
