@@ -139,5 +139,16 @@ li a:hover {
   background-color: yellow;
 }
 
+#background_warp {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-image: url('website bkg models.png');
+  background-attachment: fixed;
+}
 
 
