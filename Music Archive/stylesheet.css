@@ -9,7 +9,7 @@ body {
   
   text-align: center;
 
-  background-image: url('website bkg.png');
+  background-image: url('website bkg models.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -117,7 +117,7 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-      background-image: url('website bkg.png');
+      background-image: url('website bkg models.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
