@@ -3,9 +3,12 @@ body {
   font-family: Helvetica;
   
   color: yellow;
+
+    background-color: black;
+  
   
   text-align: center;
-  
+
   background-image: url('website bkg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,6 +117,10 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+      background-image: url('website bkg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 li {
