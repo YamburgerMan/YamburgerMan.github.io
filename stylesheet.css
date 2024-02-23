@@ -152,6 +152,11 @@ li a:hover {
   background-repeat: no-repeat;
 }
 
-.scrollable-element {
-  scrollbar-color: auto;
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
 }
