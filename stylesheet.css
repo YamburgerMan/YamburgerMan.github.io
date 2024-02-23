@@ -152,4 +152,6 @@ li a:hover {
   background-repeat: no-repeat;
 }
 
-
+.scrollable-element {
+  scrollbar-color: auto;
+}
